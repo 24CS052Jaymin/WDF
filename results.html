@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Result</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .result-container {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #98c3f1;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .total-row {
+      font-weight: bold;
+      background-color: #e7f3ff;
+    }
+
+    @media (max-width: 600px) {
+      th, td {
+        padding: 10px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Student Result Sheet</h1>
+
+  <div class="result-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Maximum Marks</th>
+          <th>Marks Obtained</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Engineering-Mathematics-II</td>
+          <td>100</td>
+          <td>82</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Programming with C++</td>
+          <td>100</td>
+          <td>85</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Digital Electronic</td>
+          <td>100</td>
+          <td>75</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>Elements of engineering</td>
+          <td>100</td>
+          <td>55</td>
+          <td>C</td>
+        </tr>
+       
+        <tr class="total-row">
+          <td>Total</td>
+          <td>400</td>
+          <td>297</td>
+          <td>B+</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

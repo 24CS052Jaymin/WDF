@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User Profile</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .profile-container {
+      background-color: #fff;
+      width: 350px;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ef9d86;
+      margin-bottom: 15px;
+    }
+
+    .profile-container h2 {
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .profile-container p {
+      color: #666;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .info-box {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .info-box strong {
+      display: inline-block;
+      width: 75px;
+      color: #867cf9;
+    }
+
+    .edit-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .edit-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-container">
+    <img src="jaymin.jpg" alt="Profile Picture" class="profile-pic" />
+    <h2>Jaymin NileshBhai Mandaliya</h2>
+    <p>Student | Computer Science</p>
+
+    <div class="info-box">
+      <p><strong>Email:</strong> Jayminmandaliya4@gmail.com</p>
+      <p><strong>Phone:</strong> +91 9106854720</p>
+      <p><strong>Roll No:</strong> 24CS052</p>
+      <p><strong>Semester:</strong> 3</p>
+      <p><strong>College:</strong> CHARUSAT</p>
+    </div>
+
+    <button class="edit-button">Edit Profile</button>
+  </div>
+
+</body>
+</html>

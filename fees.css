@@ -1,0 +1,112 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f8faff;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header Section */
+.fees-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fees-header .logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.fees-header h1 {
+  font-size: 22px;
+  color: #003366;
+  margin-bottom: 4px;
+}
+
+.fees-header h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+/* Student Info */
+.student-info {
+  margin: 20px auto;
+  max-width: 800px;
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.student-info p {
+  margin-bottom: 6px;
+}
+
+/* Table Container */
+.fee-table-container {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  overflow-x: auto;
+}
+
+/* Fee Table */
+.fee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
+}
+
+.fee-table th,
+.fee-table td {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+}
+
+.fee-table th {
+  background-color: #003366;
+  color: white;
+  font-weight: 600;
+}
+
+.fee-table td {
+  background-color: #fdfdfd;
+}
+
+.fee-table td:nth-child(3) {
+  font-weight: bold;
+}
+
+/* Fee Summary */
+.fee-summary {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+  line-height: 1.8;
+  border-top: 3px solid #003366;
+}
+
+.fee-summary p {
+  margin-bottom: 6px;
+}
+
+.fee-summary p strong {
+  color: #003366;
+}

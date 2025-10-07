@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register</title>
+  <link rel="stylesheet" href="register.css" />
+  <script src="register.js"></script>
+</head>
+<body>
+
+  <div class="bf"></div>
+
+  <h1>Welcome to Registration</h1>
+
+  <div class="box">
+    <h2>Register</h2>
+
+    <form onsubmit="return validateForm()" action="Home.html" >
+      <label for="Username">Username</label>
+      <input type="text" id="Username" name="username" />
+
+      <label for="email">Email</label>
+      <input type="email" id="Email" name="email"  />
+
+      <label for="password">Password</label>
+      <input type="password" id="Password" name="password"  />
+
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="Confirm-Password" name="confirm-password"  />
+
+      <button type="submit">Register</button>
+    </form>
+
+    <div class="reg">
+      <p>Already have an account? <a href="index.html">Login here</a></p>
+  </div>
+  
+  </div>
+
+</div>
+
+  <section class="faq" aria-labelledby="faq-heading">
+    <div class="faq-inner">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+
+      <div class="item">
+        <button class="question" aria-expanded="false">1. What information is required to register?</button>
+        <div class="answer" hidden>
+          <p>You'll need a username, a valid email address, and a password (min 8 characters, at least one number and one special character).</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <button class="question" aria-expanded="false">2. Can I change my email later?</button>
+        <div class="answer" hidden>
+          <p>Yes — you can update your email through your profile page after registering.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <button class="question" aria-expanded="false">3. I didn't receive a confirmation email — what should I do?</button>
+        <div class="answer" hidden>
+          <p>Check your spam/junk folder first. If you still don't see it, try registering again or contact support.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
